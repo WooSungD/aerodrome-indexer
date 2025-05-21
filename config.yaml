@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./node_modules/envio/evm.schema.json
-name: Velodrome_v2
-description: Multi-chain indexer for Velodrome V2 on Optimism and Aerodrome on Base
+name: Aerodrome
+description: Indexer for Aerodrome on Base
 unordered_multichain_mode: true
 rollback_on_reorg: false
 event_decoder: hypersync-client
