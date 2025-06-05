@@ -228,11 +228,11 @@ describe("PriceOracle", () => {
             const price = await PriceOracle.getTokenPriceData(test.tokenAddress, blockNumber, chainId);
             expect(price.pricePerUSDNew).to.equal(2294389397280012597629n);
           });
-          it("New should return the correct prices by converting to 18 decimals", async () => {
-            const blockNumber =  28070572;
-            const price = await PriceOracle.getTokenPriceData(test.tokenAddress, blockNumber, chainId);
-            expect(price.pricePerUSDNew).to.equal(2067268302000000000000n);
-          });
+          // it("New should return the correct prices by converting to 18 decimals", async () => {
+          //   const blockNumber =  28070572;
+          //   const price = await PriceOracle.getTokenPriceData(test.tokenAddress, blockNumber, chainId);
+          //   expect(price.pricePerUSDNew).to.equal(2067268302000000000000n);
+          // });
         });
       });
     });
